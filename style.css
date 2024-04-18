@@ -1,0 +1,11 @@
+.title
+{
+    text-align: center;
+}
+
+body{
+    background-color: #f7ede2;
+    background-image: url(Assets/images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
