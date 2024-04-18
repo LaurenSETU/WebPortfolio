@@ -9,3 +9,64 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.buttonGallery{
+    width: 220px;
+  height: 90px;
+  background-color: #f28482;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.buttonAbout{
+    width: 220px;
+  height: 90px;
+  background-color: #f6bd60;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.buttonContact{
+    width: 220px;
+  height: 90px;
+  background-color: #84a59d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.buttonWrapper{
+  position: fixed;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+.buttonGallery a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .buttonAbout a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .buttonContact a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+  }
