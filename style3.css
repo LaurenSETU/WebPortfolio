@@ -10,6 +10,54 @@ body{
     background-size: cover;
 }
 
+.buttonHome{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 50px;
+  background-color: #f28482;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.buttonGallery{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 50px;
+  background-color: #f6bd60;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .buttonContact{
+    position: fixed;
+    top: 0;
+    right: 80px; 
+    width: 70px;
+    height: 50px;
+    background-color: #84a59d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+    .buttonContact a,
+    .buttonGallery a,
+    .buttonHome a {
+      text-decoration: none; 
+      color: #000; 
+    }
+
 .footer nav{
     position: fixed;
     top: 96%;
@@ -40,14 +88,44 @@ body{
   
   .textContent {
     position: absolute;
-  top: 50%; /* Center vertically */
-  left: 30%; /* Adjust to move it slightly more to the left */
+  top: 50%; 
+  left: 30%; 
   transform: translate(-50%, -50%);
   z-index: 1;
   }
   
+  .textContent h2,
   .textContent h3,
-  .textContent h4,
-  .textContent h5 {
+  .textContent h4 {
     margin: 2; 
   }
+
+  .whiteSquare2 {
+    position: absolute;
+    top: 76%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    width: 37%;
+    height: 11%;
+    background-color: rgb(255, 252, 236);
+    z-index: 0;
+    }
+    
+    .textContent2 {
+      position: absolute;
+    top: 75%; 
+    left: 24%; 
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    }
+    
+    .textContent2 h3,
+    .textContent2 h4,
+    .textContent2 a
+  {
+      margin: 2; 
+    }
+
+    .textContent2 a { 
+        color: #000;     
+    }
