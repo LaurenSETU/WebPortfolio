@@ -70,3 +70,27 @@ body{
     font-size: 25px;
     font-weight: bold;
   }
+
+ .sun img {
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+  }
+
+  .sunlink{
+    position: fixed;
+    top: 75%;
+    right: 15%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+
+  .footer nav{
+    position: fixed;
+    top: 96%;
+    right: 45%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
