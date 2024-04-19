@@ -1,0 +1,19 @@
+.title
+{
+    text-align: center;
+}
+
+body{
+    background-color: #ffeac6;
+    background-image: url(Assets/images/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer nav{
+    position: fixed;
+    top: 96%;
+    right: 45%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
