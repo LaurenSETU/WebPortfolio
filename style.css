@@ -50,6 +50,8 @@ body{
   transform: translateY(-50%);
 }
 
+
+
 .buttonGallery a {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -71,12 +73,17 @@ body{
     font-weight: bold;
   }
 
- .sun img {
+ .sunWrapper {
     width: 500px;
     position: fixed;
     top: 50%;
     right: 10%;
     transform: translateY(-50%);
+    
+  }
+
+  .sun img{
+    max-width: 100%;
   }
 
   .sunlink{
@@ -93,4 +100,33 @@ body{
     right: 45%;
     color: rgb(0, 0, 0);
     text-decoration: underline;
+  }
+
+
+  /* got help for all the below code on various web pages and reddit posts */
+  @media screen and (max-width: 768px) {
+    .buttonWrapper {
+      top: 47%; 
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 0;
+    }
+  
+    .buttonGallery,
+    .buttonAbout,
+    .buttonContact {
+      width: 150px;
+      height: 60px;
+    }
+  
+    .sunWrapper {
+        width: 260px;
+      top: 10%; 
+      right: 50%;
+      transform: translateX(50%);
+      z-index: 1;
+    }
   }
