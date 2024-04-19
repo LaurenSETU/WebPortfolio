@@ -24,6 +24,21 @@ body{
 
 }
 
+
+.buttonHome :hover{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 50px;
+  background-color: #cc6866;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .buttonGallery{
   position: fixed;
   top: 0;
@@ -36,6 +51,19 @@ body{
   justify-content: center;
   align-items: center;
   }
+
+  .buttonGallery :hover{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 50px;
+    background-color: #d09d49;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 
   .buttonContact{
     position: fixed;
@@ -50,6 +78,20 @@ body{
     align-items: center;
     
     }
+
+    .buttonContact :hover{
+      position: fixed;
+      top: 0;
+      right: 80px; 
+      width: 70px;
+      height: 50px;
+      background-color: #6b8981;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      }
 
     .buttonContact a,
     .buttonGallery a,
